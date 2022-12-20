@@ -1,0 +1,39 @@
+{
+  "config": {
+    "abort": {
+      "reauth_successful": "Pavyko iš naujo nustatyti tapatybę"
+    },
+    "error": {
+      "exists": "Ši paskyra jau sukonfigūruota",
+      "template": "{error}"
+    },
+    "step": {
+      "user": {
+        "description": "Įveskite [eWeLink paskyros](https://www.ewelink.cc/en/) duomenis",
+        "data": {
+          "username": "El. paštas arba telefonas (naudokite bet ką \"pasidaryk pats\" režime)",
+          "password": "Slaptažodis (palikite tuščią \"pasidaryk pats\" režime)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "mode": "Būsena (automatinė rekomenduojama daugumai naudotojų)",
+          "homes": "Namai (palikite nepažymėtą \"dabartiniams\" Nammams)",
+          "debug": "Derinimo puslapis (Integracijos > Meniu > Žinomos problemos)"
+        }
+      }
+    }
+  },
+  "system_health": {
+    "info": {
+      "version": "Versija",
+      "cloud_online": "Debesijos įrenginiai tinkle",
+      "local_online": "Vietiniai įrenginiai tinkle",
+      "debug": "Derinimo puslapis"
+    }
+  }
+}
